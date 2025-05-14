@@ -1,12 +1,52 @@
-# React + Vite
+# CometChat Live App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 **Live Demo**: [https://cometchat-live.netlify.app/](https://cometchat-live.netlify.app/)
 
-Currently, two official plugins are available:
+A real-time chat application built with **React + Vite** and powered by **CometChat**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Run Locally
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Steps
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/ShivamCo/comet_chat_assignment.git
+cd comet_chat_assignment
+
+# 2. Install dependencies
+npm install
+# or
+yarn
+
+# 3. Create a .env file in the root and add the following
+
+
+VITE_APP_ID=your_cometchat_app_id
+VITE_REGION=your_cometchat_region
+VITE_AUTH_KEY=your_cometchat_auth_key
+
+
+# 4. Start the development server
+npm run dev
+# or
+yarn dev
+
+
+Visit: http://localhost:5173
+
+Tech Stack
+React
+Vite
+CometChat
+Netlify (for deployment)
+
+Deployment
+Deployed on Netlify
+👉 https://cometchat-live.netlify.app/
