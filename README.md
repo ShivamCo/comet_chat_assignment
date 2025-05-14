@@ -1,6 +1,6 @@
 # CometChat Live App
 
-🚀 **Live Demo**: [https://cometchat-live.netlify.app/](https://cometchat-live.netlify.app/)
+🚀 **Live App**: [https://cometchat-live.netlify.app/](https://cometchat-live.netlify.app/)
 
 A real-time chat application built with **React + Vite** and powered by **CometChat**.
 
@@ -37,7 +37,7 @@ VITE_AUTH_KEY=your_cometchat_auth_key
 npm run dev
 # or
 yarn dev
-
+```
 
 Visit: http://localhost:5173
 
